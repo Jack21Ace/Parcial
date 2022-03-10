@@ -27,3 +27,6 @@ class User:
         self.__edad = edad
         self.__rh = rh
         self.__eps = eps
+
+    def __str__(self) -> str:
+        pass
